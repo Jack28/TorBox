@@ -1,0 +1,6 @@
+Description="wifi standalone bridge"
+Interface=br0
+Connection=bridge
+BindsToInterfaces=()
+IP=static
+Address=('192.168.42.1/24')

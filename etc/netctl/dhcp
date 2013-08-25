@@ -1,0 +1,9 @@
+Description='A basic dhcp ethernet connection'
+Interface=eth0
+Connection=ethernet
+##- FoeBuD Anti-Zensur-DNS-Server 
+DNS='85.214.20.141'
+IP=dhcp
+
+##- unbedingt sofort die Uhr stellen, sonst geht alles schief
+ExecUpPost='/usr/bin/ntpd -gq || true'
