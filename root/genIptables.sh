@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# based on
-#   https://trac.torproject.org/projects/tor/wiki/doc/TransparentProxy#LocalRedirectionandAnonymizingMiddlebox
-
 # setup correct Nameserver (foebud)
 #echo "nameserver 85.214.20.141" > /etc/resolv.conf
 

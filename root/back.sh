@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# simple Backup Script for configurations
-
 tar zcvf /root/Backup.tar.gz \
 	/etc/ntp.conf \
 	/etc/hostapd \

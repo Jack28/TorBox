@@ -1,7 +1,8 @@
 TorBox
 ======
 
-Some config files to setup an open WLAN-Network only connected to the TOR
+Some config files to setup an unencrypted, free to use WIFI hotspot without
+getting into trouble. The wireless network routes everything through the TOR
 Network.
 
 Uses
